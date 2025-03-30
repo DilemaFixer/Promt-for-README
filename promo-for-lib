@@ -1,0 +1,55 @@
+# Create a README.md file for GitHub repository
+
+Create a README.md file for a GitHub repository using the information provided below:
+
+## Required Information
+- Project name: [PROJECT NAME]
+- Project type: library
+- Programming language/stack: [PROGRAMMING LANGUAGE/STACK]
+- GitHub profile: [GITHUB PROFILE LINK]
+- Repository name: [REPOSITORY NAME]
+- Latest version branch: [BRANCH NAME]
+- Project dependencies: [LIST OF DEPENDENCIES]
+- Project files: [LIST OF FILES]
+
+## README Structure (follow this exact sequence)
+1. **Title and Badges**
+   - Project name as a level 1 heading
+   - Badges showing: build status, version, license, programming language
+   - Brief project description (1-2 sentences)
+
+2. **Installation**
+   - Console commands to download the library:
+     - For 5 or fewer files: separate curl commands for each file following this format:
+       `curl -o file https://raw.githubusercontent.com/username/project_name/branch_name/file`
+     - For more than 5 files: commands to create a folder and clone/download the entire library
+     - Use the latest version branch in the links
+   - Separate commands for Windows and Unix-based systems (Linux, macOS)
+   - Commands should be ready to copy without comments inside the code blocks
+
+3. **API and Usage Examples**
+   - Divide the API into logical groups
+   - For each function group:
+     1. Description of the function group (what they do and what they're for)
+     2. Description of all core structures, classes, objects, constant fields, and static fields in code format with brief comments for each field
+     3. List of functions with parameters and descriptions, formatted as code blocks (with ``` on both sides), with comments explaining the function's purpose but without explaining parameter values (except for parameters with names that might be unclear or ambiguous)
+     4. Usage example (clean code only, without main function or other context)
+     5. Specify the required header files for the example to work
+
+4. **Dependencies**
+   - List all dependencies
+   - For each dependency:
+     - If a repository link is provided: include the link
+     - If only a name is provided: leave as is
+     - If it's a widely used dependency: find and include the official link
+   - If there are no dependencies, skip this section entirely
+
+## Formatting Requirements
+- Use modern markdown formatting
+- Add emojis to improve readability (for headings and key points)
+- Divide text into logical sections with clear headings
+- Target a developer audience
+- Don't add extra text or information not provided in the data
+- Don't generate code examples if the project's source code isn't provided
+
+If any required information is missing, indicate this and do not continue generating until that information is provided.
