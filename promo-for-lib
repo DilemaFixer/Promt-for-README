@@ -24,7 +24,7 @@ Create a README.md file for a GitHub repository using the information provided b
        `curl -o file https://raw.githubusercontent.com/username/project_name/branch_name/file`
      - For more than 5 files: commands to create a folder and clone/download the entire library
      - Use the latest version branch in the links
-   - Separate commands for Windows and Unix-based systems (Linux, macOS)
+   - Separate commands for Windows and Unix-based systems (Linux, macOS) , but if user say that it only for one platform ignor all anyther platforms
    - Commands should be ready to copy without comments inside the code blocks
 
 3. **API and Usage Examples**
