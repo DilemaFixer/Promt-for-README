@@ -10,7 +10,8 @@ Create a README.md file for a GitHub repository using the information provided b
 - Repository name: [REPOSITORY NAME]
 - Latest version branch: [BRANCH NAME]
 - Project dependencies: [LIST OF DEPENDENCIES]
-- Project files: [LIST OF FILES]
+- Project files: [LIST OF FILES] 
+- Project idea: [DESCRIPTION OF IDEA]
 
 ## README Structure (follow this exact sequence)
 1. **Title and Badges**
